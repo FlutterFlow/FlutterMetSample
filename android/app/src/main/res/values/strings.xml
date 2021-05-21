@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">FlutterMet</string>
+    <string name="facebook_app_id">CREATE_YOUR_OWN_FB_APP</string>
+               <string name="fb_login_protocol_scheme">fbCREATE_YOUR_OWN_FB_APP</string>
+</resources>

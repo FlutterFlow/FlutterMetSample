@@ -146,7 +146,9 @@ class _MyCollectionWidgetState extends State<MyCollectionWidget> {
                                                 Align(
                                                   alignment: Alignment(0, 0),
                                                   child: Image.network(
-                                                    'https://images.metmuseum.org/CRDImages/dp/original/DP108505.jpg',
+                                                    getJsonField(
+                                                        cardGetArtPieceResponse,
+                                                        r'$.primaryImage'),
                                                     width: double.infinity,
                                                     height: double.infinity,
                                                     fit: BoxFit.cover,
